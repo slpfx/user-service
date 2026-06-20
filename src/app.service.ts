@@ -4,6 +4,6 @@ import { UserDTO } from './DTOs/userDTO';
 @Injectable()
 export class AppService {
   createUser(user: UserDTO) {
-    return user;
+    return console.log('user created, ', user);
   }
 }
